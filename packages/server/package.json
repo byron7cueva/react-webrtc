@@ -6,6 +6,9 @@
   "author": "byron7cueva",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "dev": "nodemon"
+  },
   "dependencies": {
     "express": "4.17.1",
     "socket.io": "2.3.0"
@@ -14,6 +17,8 @@
     "@types/express": "4.17.7",
     "@types/node": "^14.0.22",
     "@types/socket.io": "2.1.8",
+    "nodemon": "2.0.4",
+    "ts-node": "8.10.2",
     "typescript": "^3.9.6"
   }
 }
