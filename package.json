@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "react-webrtc",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "description": "Exaple server webrtc",
+  "main": "index.js",
+  "author": "byron7cueva",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "4.17.1",
+    "socket.io": "2.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.7",
+    "@types/node": "^14.0.22",
+    "@types/socket.io": "2.1.8",
+    "typescript": "^3.9.6"
+  }
+}
