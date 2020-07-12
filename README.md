@@ -8,5 +8,5 @@ lerna bootstrap
 
 ### server
 ´´´bash
-lerna run dev
+lerna run dev 
 ´´´
