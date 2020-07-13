@@ -31,9 +31,9 @@ io.on('connection', (socket: Socket) => {
   });
 
   // On acapt call
-  socket.on('aceptCall', (data: any) => {
-    io.to(data.to).emit('callAcepted', data.signal);
+  socket.on('acceptCall', (data: any) => {
+    io.to(data.to).emit('callAccepted', data.signal);
   })
 })
 
-server.listen(8000, () => console.log('Server is running')); 
+server.listen(8080, () => console.log('Server is running')); 

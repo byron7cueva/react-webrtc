@@ -1,9 +1,10 @@
 import React from 'react';
-import './App.css';
+
+import { Webrtc } from './components/Webrtc/index';
 
 function App() {
   return (
-    <p>Hola mundo</p>
+    <Webrtc />
   );
 }
 

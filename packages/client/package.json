@@ -18,6 +18,11 @@
     "simple-peer": "9.7.2",
     "styled-components": "5.1.1"
   },
+  "devDependencies": {
+    "@types/socket.io-client": "1.4.33",
+    "@types/simple-peer": "9.6.0",
+    "@types/styled-components": "5.1.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
