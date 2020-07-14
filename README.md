@@ -1,12 +1,11 @@
 ## Install dependencies
-
-´´´bash
+```bash
 lerna bootstrap
-´´´
+```
 
 ## Run
 
 ### server
-´´´bash
+```bash
 lerna run dev 
-´´´
+```
